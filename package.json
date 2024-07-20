@@ -1,0 +1,21 @@
+{
+  "name": "reviews-app",
+  "version": "1.0.0",
+  "description": "A simple review app using node js",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "reviews-app"
+  ],
+  "author": "timunwahyu",
+  "license": "MIT",
+  "dependencies": {
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/yargs": "^17.0.32"
+  }
+}

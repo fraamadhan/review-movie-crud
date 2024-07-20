@@ -24,7 +24,12 @@ const checkIsPhoneNumber = (phoneNumber) => {
 };
 
 const isDataExist = (reviews, name = null, email = null) => {
-  const review = reviews.find((review) => review.name.toLowerCase() === name.toLowerCase() || (review.email === email && review.email !== ""));
+  let review;
+  if (name) {
+    review = reviews.find((review) => review.name.toLowerCase() === name.toLowerCase() || (review.email === email && review.email !== ""));
+  } else {
+    review = reviews.find((review) => review.email === email && review.email !== "");
+  }
 
   if (!review) {
     return { status: 404, message: `Data with name ${name} is not found`, data: null };

@@ -1,4 +1,5 @@
 [
   { "name": "Ansellma", "email": "ansellmacantik@gmail.com", "phoneNumber": "081219101", "review": "Good movie tbh" },
-  { "name": "Inshira Vieta Amara", "email": "", "phoneNumber": "08976107721", "review": "Good movie tbh yeyeye" }
+  { "name": "Inshira Vieta Amara", "email": "", "phoneNumber": "08976107721", "review": "Good movie tbh yeyeye" },
+  { "name": "John Doe", "email": "johndoe@gmail.com", "phoneNumber": "0897171717", "review": "The Lord of The Rings is a good movie with beautiful in it!" }
 ]
